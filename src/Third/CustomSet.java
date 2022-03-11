@@ -7,7 +7,6 @@ import java.util.Set;
 
 public class CustomSet implements Set {
     Set set;
-    private Object[] o;
     public CustomSet(){
         set = new HashSet();
     }

@@ -6,7 +6,6 @@ public class Singleton3 {
     static{
         try{
             instance = new Singleton3();
-            System.out.println("Success");
         }
         catch (Exception e){
 
